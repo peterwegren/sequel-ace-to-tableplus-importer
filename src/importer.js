@@ -74,7 +74,7 @@ class Import {
       if (!connection.connections.length) {
         return {
           "ConnectionName": connection.connections.name || "",
-          "DatabaseHost": connection.connections.host || "",
+          "DatabaseHost": connection.connections.sshHost ? "127.0.0.1" : connection.connections.host,
           "DatabaseName": connection.connections.database || "",
           "DatabasePasswordMode": 0,
           "DatabasePath": "",
