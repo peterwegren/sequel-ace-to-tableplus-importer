@@ -2,6 +2,8 @@
 
 An unofficial way to import existing Sequel Pro connections into TablePlus. 
 
+
+
 ## *Although a backup is created, this script is intended for use on fresh installations of TablePlus and will overwrite any existing connections.*
 
 ### Prerequisites
@@ -30,6 +32,8 @@ Be sure both Sequel Pro and TablePlus are closed and run the script:
 ```
 $ ./tp-importer
 ```
+###  Note: It does not import over the passwords.
+To get access to your passwords please use your keychain and search for the host name. 
 
 ## Built With
 
