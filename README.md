@@ -1,4 +1,4 @@
-# TP-Importer
+# Sequel Pro to Table Plus Importer
 
 An unofficial way to import existing Sequel Pro connections into TablePlus. 
 
