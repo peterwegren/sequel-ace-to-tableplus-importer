@@ -9,7 +9,7 @@ An unofficial way to import existing Sequel Pro connections into TablePlus.
 ### Prerequisites
 * [TablePlus](https://tableplus.io/)
 * [Sequel Pro](https://www.sequelpro.com/)
-* Node
+* [Node](https://nodejs.org/) - Make sure you are on the lastest version
 * NPM or Yarn
 
 Tested and working with node v10.8.0
