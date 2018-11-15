@@ -19,21 +19,24 @@ Please note that this script will not bring over any passwords. You will need to
 
 Clone the project somewhere on your system:
 ```
-$ git clone git@github.com:brandonjjon/tp-importer.git
+git clone git@github.com:ashbakernz/sequel-pro-to-tableplus-importer.git
 ```
 
 Navigate into the freshly cloned project and use a package manager of your choosing to install required dependencies:
 ```
-$ cd tp-importer
-$ npm install
+cd sequel-pro-to-tableplus-importer
+npm install
 ```
 
 Be sure both Sequel Pro and TablePlus are closed and run the script:
 ```
-$ ./tp-importer
+./tp-importer
 ```
 ###  Note: It does not import over the passwords.
 To get access to your passwords please use your keychain and search for the host name. 
+
+## Credit
+* [brandonjjon](https://github.com/brandonjjon/tp-importer) - This project is a fork from.
 
 ## Built With
 
