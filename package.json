@@ -1,8 +1,8 @@
 {
   "name": "tp-importer",
-  "version": "0.0.1",
-  "description": "Imports existing Sequel Pro connections into Table Plus.",
-  "repository": "https://github.com/brandonjjon/tp-importer",
+  "version": "0.0.2",
+  "description": "Imports existing Sequel Ace connections into Table Plus.",
+  "repository": "https://github.com/ashkellerman/sequel-pro-to-tableplus-importer",
   "main": "index.js",
   "dependencies": {
     "commander": "^2.19.0",
